@@ -143,8 +143,9 @@ static int lerInteiro(const char *mensagem) {
 static int fazerLogin(void) {
     char usuario[50];
     char senha[50];
+    int tentativa;
 
-    for (int tentativa = 1; tentativa <= 3; tentativa++) {
+    for (tentativa = 1; tentativa <= 3; tentativa++) {
         printf("\n--- TELA DE LOGIN (Tentativa %d de 3) ---\n", tentativa);
         capturarEntrada("Usuario: ", usuario, sizeof(usuario));
         capturarEntrada("Senha: ", senha, sizeof(senha));
