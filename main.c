@@ -154,7 +154,8 @@ static char *lerArquivo(const char *caminho) {
 
 int fazerLogin(void) {
     char usuario[50], senha[50];
-    for (int tentativa = 1; tentativa <= 3; tentativa++) {
+    int tentativa;
+    for (tentativa = 1; tentativa <= 3; tentativa++) {
         printf("\n--- TELA DE LOGIN (Tentativa %d de 3) ---\n", tentativa);
         capturarEntrada("Usuario: ", usuario, sizeof(usuario));
         capturarEntrada("Senha: ", senha, sizeof(senha));
@@ -237,7 +238,7 @@ void fecharConexao(void) {
 void imprimirTexto(void) {
     if (conexaoAberta) {
         int retorno = ImpressaoTexto("Teste de impressao", 1, 4, 0);
-        if (retorno == 0) {
+        if (retorno >= 0) {
             Corte(5);
             printf("Impressao realizada com sucesso.\n");
         } else {
