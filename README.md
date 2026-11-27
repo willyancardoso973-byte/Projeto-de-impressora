@@ -160,6 +160,7 @@ impressora devem ser realizadas com a conexão aberta.
 -   Henrique Silva Rodrigues Mathias
 -   João Pedro de Lima Valerio
 -   Willyan Cardoso Andrade
+-   Vinícius Luz Barros Ferreira Lorenzo
 
 ------------------------------------------------------------------------
 
