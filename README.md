@@ -157,8 +157,8 @@ impressora devem ser realizadas com a conexão aberta.
 *(preencher em ordem alfabética)*
 
 -   Gustavo Monteiro Ribeiro
--   Henrique Silva Rodrigues Mathias
 -   João Pedro de Lima Valerio
+-   Henrique Silva Rodrigues Mathias
 -   Willyan Cardoso Andrade
 -   Vinícius Luz Barros Ferreira Lorenzo
 
